@@ -11,11 +11,11 @@ puts "Your cards add up to #{total}"
 end
 
 def prompt_user
-  # code #prompt_user here
+ puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
-  # code #get_user_input here
+  userinput=gets.chomp
 end
 
 def end_game
